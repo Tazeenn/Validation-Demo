@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+</head>
+<link rel="stylesheet" href="./Validate.css">
+<body>
+    <h1>Demo on Validation</h1>
+    <div class="container">
+        <form action="" onsubmit="return validate()"> <!--return is used to catch the value from the user-->
+            <input type="text" name="fnm" placeholder="Enter First Name">
+            <br>
+            <span></span> <!--To display the error message-->
+            <br>
+
+            <input type="text" name="lnm" placeholder="Enter Last Name">
+            <br>
+            <span class="errmsg"></span>
+            <br><br>
+
+            <input type="submit">
+        </form>
+    </div>
+    <script src="./Validate.js"></script>
+</body>
+</html>
